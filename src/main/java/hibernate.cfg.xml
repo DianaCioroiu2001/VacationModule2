@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- SQL dialect -->
+        <!--property name="dialect">org.hibernate.dialect.MySQL8Dialect</property-->
+
+        <!-- Database connection settings -->
+        
+        
+        
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/vacationmodule2</property>
+        <property name="connection.username">vacationmoduleuser</property>
+        <property name="connection.password">1234</property>
+        <property name="connection.shutdown">true</property>
+
+        <!-- JDBC connection pool (use the built-in one) -->
+        <property name="connection.pool_size">10</property>
+
+        <!-- validate/update/create/create-drop -->
+        <property name="hbm2ddl.auto">validate</property>
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <!-- List all the mapping documents we're using -->
+    <!--     <mapping class="com.fdm.hibernate.annotation.entities.Student"/>
+        <mapping class="com.fdm.hibernate.annotation.entities.Teacher"/>-->
+        <mapping class="com.fdm.vacationModule.dao.entities.UserAccountEntity"/> 
+       <mapping class="com.fdm.vacationModule.dao.entities.VacationRequestEntity"/>
+
+    </session-factory>
+</hibernate-configuration>

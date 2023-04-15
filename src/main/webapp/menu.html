@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <h1 style="text-align: center;" style="font-size: 100px;">Menu</h1>
+ <h1 style="font-size: 40px;color: red;">Choose an option</h1>
+<form action = "createRequest" method = "post" >
+ <h1  style="font-size: 20px;  ">Creating a new vacation request  </h1>
+<input type="submit" style="width: 100px; height: 35px;  background-color: #008080; color: #fff;" value="Create">
+</form>
+<h1 style="font-size: 20px; ">Modify an existing vacation request</h1>
+<form action = "modifyVacationRequest" method = "post" >
+<input type="submit" style="width: 100px; display: inline; height: 35px;  background-color: #008080; color: #fff;" value="Modify">
+</form>
+<h1  style="font-size: 20px;  ">Get a list of the existing vacation request made</h1>
+<form action = "otpCheckGetAList" method = "post" >
+<input type="submit" style="width: 100px; height: 35px;  background-color: #008080; color: #fff;" value="Get">
+</form>
+<h1 style="font-size: 20px;">Get a list of the national holidays</h1>
+<form action = "getListNationalHolidays" method = "post" >
+<input type="submit" style="width: 100px; height: 35px;  background-color: #008080; color: #fff;" value="Get">
+</form>
+<h1 style="font-size: 20px;">Get the number of available vacation days of a given year</h1>
+<form action = "getAvailable" method = "post" >
+<input type="submit" style="width: 100px; height: 35px;  background-color: #008080; color: #fff;" value="Get">
+</form>
+</body>
+</html>

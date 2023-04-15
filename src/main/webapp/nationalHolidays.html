@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+* { 
+  
+  box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 1px2px;
+  width: 100%;
+  background: #1abc9c;
+ 
+}
+
+.month  {
+  margin: 0;
+  padding: 1px 0;
+ background-color: #ddd;
+}
+
+.month  li {
+  display: inline-block;
+  width: 30%;
+  color: #666;
+ 
+}
+
+
+.weekdays {
+  margin: 50px;
+  padding: 50px 0;
+  background-color: #ddd;
+
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 50%;
+  color: #666;
+ 
+}
+
+.days {
+  padding: 1px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 3%;
+  text-align: center;
+  margin-bottom: 1px;
+  font-size:10px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:74px) {
+  .weekdays li, .days li {width: 5.1%;}
+}
+
+@media screen and (max-width: 4px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 6px;}
+}
+
+@media screen and (max-width: 24px) {
+  .weekdays li, .days li {width: 1.2%;}
+}
+</style>
+</head>
+<body>
+
+
+
+<ul class="month ">      
+  <li>Ianuarie </li>
+  <li>Februarie </li>
+  <li>Martie</li>
+ </ul>
+
+ 
+
+<ul class="weekdays">
+&nbsp
+
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  &nbsp
+   &nbsp
+   &nbsp
+ 
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+ 
+</ul>
+
+<ul class="days">  
+<div>
+	 
+	
+	 
+	 
+	 &nbsp
+	 &nbsp
+	 &nbsp
+	 &nbsp
+     &nbsp  
+     &nbsp
+     &nbsp
+     &nbsp  
+     &nbsp
+     &nbsp  
+     &nbsp
+     &nbsp  
+     &nbsp  
+     &nbsp  
+     &nbsp
+     &nbsp
+     &nbsp
+     &nbsp  
+     &nbsp  
+     &nbsp  
+     &nbsp
+     &nbsp
+  <li><span class="active">1</span></li>
+ 
+     
+    
+     
+     &nbsp
+	 &nbsp
+	 &nbsp
+	 &nbsp
+     &nbsp  
+     &nbsp
+     &nbsp  
+     &nbsp  
+     &nbsp  
+     &nbsp
+     &nbsp
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+     
+     &nbsp
+     &nbsp  
+     &nbsp 
+     &nbsp
+     &nbsp  
+    
+     &nbsp  
+     &nbsp
+     &nbsp
+     &nbsp  
+     &nbsp
+     &nbsp
+    
+  <li>1</li>
+   <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <p></p>
+  
+ <li><span class="active">2</span></li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   <li>6</li>
+  <li>7</li>
+  <li>8</li>
+   <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+   <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <p></p>
+  
+   <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+    <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <p></p>
+   
+  <li>16</li>
+  <li>17</li>
+   <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>20</li>
+  <li>21</li>
+   <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>20</li>
+  <li>21</li>
+   <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+ <p></p>
+ 
+ <li>23</li>
+  <li><span class="active">24</span></li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>27</li>
+  <li>28</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+  
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+  <p></p>
+  
+  <li>30</li>
+  <li>31</li>
+  </div>
+</ul>
+
+<style>
+* { 
+  
+  box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 1px2px;
+  width: 100%;
+  background: #1abc9c;
+ 
+}
+
+.month  {
+  margin: 0;
+  padding: 1px 0;
+ background-color: #ddd;
+}
+
+.month  li {
+  display: inline-block;
+  width: 30%;
+  color: #666;
+ 
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 1px 0;
+  background-color: #ddd;
+
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 3%;
+  color: #666;
+ 
+}
+
+.days {
+  padding: 1px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 3%;
+  text-align: center;
+  margin-bottom: 1px;
+  font-size:10px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:74px) {
+  .weekdays li, .days li {width: 5.1%;}
+}
+
+@media screen and (max-width: 4px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 6px;}
+}
+
+@media screen and (max-width: 24px) {
+  .weekdays li, .days li {width: 1.2%;}
+}
+</style>
+</head>
+<body>
+
+
+
+<ul class="month ">      
+  <li>Aprilie </li>
+  <li>Mai </li>
+  <li>Iunie</li>
+ </ul>
+
+ 
+  
+<ul class="weekdays">
+
+&nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  &nbsp
+   &nbsp
+   &nbsp
+  
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+   &nbsp
+   
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+ 
+</ul>
+
+<ul class="days">  
+<div>
+  
+  
+   
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+  &nbsp 
+  &nbsp
+   &nbsp  
+
+
+   
+  <li>1</li>
+  <li>2</li>
+  &nbsp  
+  &nbsp
+  &nbsp
+  <li><span class="active">1</span></li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  
+  &nbsp  
+  &nbsp
+  &nbsp
+  &nbsp  
+  &nbsp
+  &nbsp
+  &nbsp  
+  &nbsp
+  &nbsp
+  &nbsp  
+  &nbsp
+  &nbsp
+  &nbsp
+  &nbsp
+  <li><span class="active">1</span></li>
+  <li>2</li>
+  <li>3</li>
+  <li><span class="active">4</span></li>
+  <p></p>
+  
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li><span class="active">5</span></li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <p></p>
+  
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li><span class="active">14</span></li>
+  <li>15</li>
+  <li><span class="active">16</span></li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   <li>12</li>
+ <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <p></p>
+   
+  <li><span class="active">17</span></li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+   <li>22</li>
+  <li>23</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+   <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+ <p></p>
+ 
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp  
+  
+   
+        
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>     
+  <li>29</li>
+  <li>30</li>
+
+    
+  </div>
+</ul>
+<style>
+* { 
+  
+  box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 1px2px;
+  width: 100%;
+  background: #1abc9c;
+ 
+}
+
+.month  {
+  margin: 0;
+  padding: 1px 0;
+ background-color: #ddd;
+}
+
+.month  li {
+  display: inline-block;
+  width: 30%;
+  color: #666;
+ 
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 1px 0;
+  background-color: #ddd;
+
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 3%;
+  color: #666;
+ 
+}
+
+.days {
+  padding: 1px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 3%;
+  text-align: center;
+  margin-bottom: 1px;
+  font-size:10px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:74px) {
+  .weekdays li, .days li {width: 5.1%;}
+}
+
+@media screen and (max-width: 4px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 6px;}
+}
+
+@media screen and (max-width: 24px) {
+  .weekdays li, .days li {width: 1.2%;}
+}
+</style>
+</head>
+<body>
+
+
+
+<ul class="month ">      
+  <li>Iulie </li>
+  <li>August </li>
+  <li>Septembrie</li>
+ </ul>
+
+ 
+
+<ul class="weekdays">
+&nbsp
+
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  &nbsp
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+ 
+</ul>
+
+<ul class="days">  
+<div>
+  
+   &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp    
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+ 
+  <li>1</li>
+  <li>2</li>
+   
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+  &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+ 
+ <p></p>
+ 
+   <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+    <li>4</li>
+   <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+ 
+  <p></p>
+  
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   <li>14</li>
+   <li><span class="active">15</span></li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+    <li>11</li>
+   <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+ <li>17</li>
+  
+  <p></p>
+   
+   <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   <li>18</li>
+    <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+ 
+  <p></p>
+  
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+ 
+  <li>28</li>   
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+  
+  
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+
+  <p></p>
+  
+  <li>31</li>
+  
+ 
+  
+  </div>
+</ul>
+</style>
+</head>
+<body>
+
+
+
+<ul class="month ">      
+  <li>Octombrie </li>
+  <li>Noiembrie </li>
+  <li>Decembrie</li>
+ </ul>
+
+ 
+
+<ul class="weekdays">
+&nbsp
+
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  &nbsp
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+ 
+</ul>
+
+<ul class="days">  
+<div>
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>1</li>
+   
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+ 
+ 
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+    &nbsp
+   &nbsp
+ 
+   
+  <li><span class="active">1</span></li>
+  <li>2</li>
+  <li>3</li>
+  <p></p>
+  
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+   &nbsp
+   &nbsp
+   &nbsp
+   <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <p></p>
+  
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+   &nbsp
+   &nbsp
+   &nbsp
+   <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+   &nbsp
+   &nbsp
+   &nbsp
+   <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <p></p>
+   
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+   &nbsp
+   &nbsp
+   &nbsp
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+   &nbsp
+   &nbsp
+   &nbsp
+   <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <p></p>
+  
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+
+   &nbsp
+   &nbsp
+   &nbsp    
+
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li><span class="active">30</span></li>
+  &nbsp
+   
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp  
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+   &nbsp
+  
+   <li><span class="active">25</span></li>
+  <li><span class="active">26</span></li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+  <p></p>
+  <li>30</li>
+  <li>31</li>
+  </div>
+</ul>
+
+</body>
+</html>
+</body>
+</html>

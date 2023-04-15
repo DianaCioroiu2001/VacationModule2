@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>VacationModule2</display-name>
+  
+  <servlet>
+    <servlet-name>signUp</servlet-name>
+    <jsp-file>/signUp.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>signUp</servlet-name>
+    <url-pattern>/signUp</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>logIn</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>logIn</servlet-name>
+    <url-pattern>/logIn</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>backToSignUp</servlet-name>
+    <jsp-file>/signUp.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>backToSignUp</servlet-name>
+    <url-pattern>/backToSignUp</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>goToLogIn</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>goToLogIn</servlet-name>
+    <url-pattern>/goToLogIn</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>createRequest</servlet-name>
+    <jsp-file>/createRequest.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>createRequest</servlet-name>
+    <url-pattern>/createRequest</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>modifyVacationRequest</servlet-name>
+    <jsp-file>/modifyVacationRequest.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>modifyVacationRequest</servlet-name>
+    <url-pattern>/modifyVacationRequest</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>modify</servlet-name>
+    <jsp-file>/modify.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>modify</servlet-name>
+    <url-pattern>/modify</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>modified</servlet-name>
+    <jsp-file>/modify.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>modified</servlet-name>
+    <url-pattern>/modified</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<servlet>
+    <servlet-name>menu</servlet-name>
+    <jsp-file>/menu.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>menu</servlet-name>
+    <url-pattern>/menu</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>invalidDate</servlet-name>
+    <jsp-file>/invalidDate.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>invalidDate</servlet-name>
+    <url-pattern>/invalidDate</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>generateError</servlet-name>
+    <jsp-file>/generateError.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>generateError</servlet-name>
+    <url-pattern>/generateError</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>otpCheckGetAList</servlet-name>
+    <jsp-file>/otpCheckGetAList.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>otpCheckGetAList</servlet-name>
+    <url-pattern>/otpCheckGetAList</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>delete</servlet-name>
+    <jsp-file>/delete.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+<servlet>
+    <servlet-name>getAvailableVacation</servlet-name>
+    <jsp-file>/numberAvailable.html</jsp-file>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>getAvailableVacation</servlet-name>
+    <url-pattern>/getAvailable</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+   <servlet>
+    <servlet-name>cerereCreata</servlet-name>
+    <jsp-file>/cerereCreata.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>cerereCreata</servlet-name>
+    <url-pattern>/cerereCreata</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+    <servlet-name>insufficientDays</servlet-name>
+    <jsp-file>/insufficientDays.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>insufficientDays</servlet-name>
+    <url-pattern>/insufficientDays</url-pattern>
+</servlet-mapping>
+  
+    
+
+
+
+<servlet>
+    <servlet-name>paginaInitiala</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>paginaInitiala</servlet-name>
+    <url-pattern>/paginaInitiala</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+    <servlet-name>signIn</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>signIn</servlet-name>
+    <url-pattern>/signIn</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+<servlet>
+    <servlet-name>getList</servlet-name>
+    <jsp-file>/nationalHolidays.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>getList</servlet-name>
+    <url-pattern>/getListNationalHolidays</url-pattern>
+</servlet-mapping>
+
+   
+ <servlet>
+    <servlet-name>creareCerere</servlet-name>
+    <jsp-file>/creareCerere.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>creareCerere</servlet-name>
+    <url-pattern>/creeazaCerere</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>modifyRequest</servlet-name>
+    <jsp-file>/modifyRequest.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>modifyRequest</servlet-name>
+    <url-pattern>/modifyRequest</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>userAccountVerification</servlet-name>
+    <jsp-file>/getListVerification.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>userAccountVerification</servlet-name>
+    <url-pattern>/userAccountVerification</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>Edureka1.BasicLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Login</servlet-name>
+  <url-pattern>/BasicLogin</url-pattern>
+  </servlet-mapping>
+ 
+
+
+
+
+
+    <session-config>
+
+        <session-timeout>
+
+            30
+
+        </session-timeout>
+
+    </session-config>
+
+   
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+  
